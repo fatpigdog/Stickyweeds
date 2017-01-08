@@ -1,0 +1,262 @@
+<html>
+ <head>
+   <title>
+      Stickyweeds Cafe
+	</title>
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+	
+	.active {
+
+}
+
+</style>
+<style>
+p.ex1 {
+    margin-left: 1cm;
+}
+</style>
+<style>
+p.ex2 {
+    margin-left: 1cm;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Mobile Optimised Text */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+ </head>
+ <body background= "SB.gif">
+ <img src="FullLogo.png">
+
+ <font face="Consolas">
+   <ul>
+  <li><a class="active" href="Stickyweedshomepage.html">Home</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Contact.html">Contact Us</a></li>
+  <li><a href="Menu.html">Menu</a></li>
+   <li><a href="cycleroutes.html">Cycle Routes</a></li>
+</ul></br>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade"> 
+  <img src="till.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="front.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="serve.jpg" style="width:100%">
+</div>
+
+
+<div class="mySlides fade"> 
+  <img src="frontr.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="shelf.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="food.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="books.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="sofa.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="teaa.jpg" style="width:100%">
+</div>
+<div class="mySlides fade"> 
+  <img src="sweets.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="cakestand.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="cards.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="clock.jpg" style="width:100%">
+</div>
+<div class="mySlides fade"> 
+  <img src="relax.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="sign.png" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="garden.jpg" style="width:100%">
+</div>
+
+
+<div class="mySlides fade"> 
+  <img src="Tea.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="Kettle.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="Cakes.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="Bicycle.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="CoffeeShop.png" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</br>
+
+
+
+<footer>
+<font face="Times New Roman" size="1" color="grey">
+<p align=center>
+ © Copyright Stickyweeds Café 2016</br>
+ All rights reserved</br>
+ Website Design By Jacob Pope</br>
+</footer>
+</p>
+</font>
+ </body>
+<html>

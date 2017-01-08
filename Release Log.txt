@@ -1,0 +1,24 @@
+RELEASE LOG:
+(BETA):
+v.0.0.5: Added horizontal menu and tabs, background and synced pages
+v.0.1: Added Address and Google Maps
+v.0.1.2: Added Dropdowns on About page
+v.0.1.5: Changed Font
+v.0.2: Bug fixes, Slideshow
+v.0.2.1: Added Opening times and an image
+v.0.2.1.5:Added new The Cafe tab in about
+v.0.2.2:Added FAQ
+v.0.2.2.1:Removed FAQ
+v.0.2.2.2:Bug Fixes
+v.0.2.5: Added Some Pictures, Bug fixes
+v.0.3: Added Logo, Slideshow improvements, Slideshow captions, New Font, Mobile Optimised
+v.0.3.1: Logo improvements, copyright bar at the bottom, slidehsow focus improvements
+v.0.3.2: Bug fixes, work started on contact page
+v.0.3.5: Menu Page Begun
+v.0.3.6: Standardized Other Pages
+v.0.3.7: Cycle Routes Page Added 
+v.0.4: Major Aunty Branca Improvements and Standardization, Cycle Routes Page Completed
+v.0.5: Standardization, Improvements, Finalisation, Pictures and Cycle Routes Page temporarily removed.
+v.0.5.5: Full Vesion Of Downloadable Menu added and availible.
+v.0.6: Further finalisation and standardization, Cycles page added back with full downloads availible
+

@@ -1,0 +1,115 @@
+<html>
+ <head>
+   <title>
+      Stickyweeds Cafe-Contact Us
+	</title>
+	
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    
+}
+
+</style>
+
+<style>
+p.ex1 {
+    margin-left: 1cm;
+}
+</style>
+ <style>
+#map {
+    position: relative;
+    width: 35%;
+    height: 350px;
+    background-color: #CCC;
+    margin: 1% 0 0 3%;
+    }
+
+#map-container {
+    height: 10px;
+    width: 100%;
+    }
+</style>
+ </head>
+ <body background= "SB.gif">
+  <img src="FullLogo.png">
+ <font face="Consolas" size="3">
+   <ul>
+  <li><a class="active" href="Stickyweedshomepage.html">Home</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Contact.html">Contact Us</a></li>
+  <li><a href="Menu.html">Menu</a></li>
+  <li><a href="cycleroutes.html">Cycle Routes</a></li>
+</ul>
+<p class="ex1">
+Phone: 01772 612261</br>
+Email: stickyweedscafe@gmail.com</br>
+<font size=6><b>Address</font></b></br>
+<font size=3>328 Chapel Lane </br>
+New Longton</br>
+Preston</br>
+PR4 4AB</br>
+</p>
+
+<p class="ex1">
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+</p>
+
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(53.726642, -2.749990),
+        zoom: 17,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<p class="ex1">
+<font size=6><b>Opening Times</font></b></br>
+<font size=3>
+<b>Monday~</b>10:00am-4:00pm</br>
+<b>Tuesday~</b>10:00am-4:00pm</br>
+<b>Wednesday~</b>10:00am-4:00pm</br>
+<b>Thursday~</b>10:00am-4:00pm</br>
+<b>Friday~</b>10:00am-4:00pm</br>
+<b>Saturday~</b>10:00am-4:00pm</br>
+<b>Sunday~</b>Closed</br>
+</font>
+
+</font>
+<footer>
+<font face="Times New Roman" size="1" color="grey">
+<p align=center>
+ © Copyright Stickyweeds Café 2016</br>
+ All rights reserved</br>
+  Website Design By Jacob Pope</br>
+ Photography By David Beattie and Jacob Pope</br>
+</footer>
+ </body>
+<html>

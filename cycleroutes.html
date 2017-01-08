@@ -1,0 +1,163 @@
+<html>
+ <head>
+   <title>
+      Stickyweeds Cafe-Cycle Routes
+	</title>
+
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    
+}
+</style>
+
+<style>
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
+}
+</style>
+
+ </head>
+ <body background= "SB.gif">
+ <font face="Consolas">
+  <img src="FullLogo.png">
+   <ul>
+  <li><a class="active" href="Stickyweedshomepage.html">Home</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Contact.html">Contact Us</a></li>
+  <li><a href="Menu.html">Menu</a></li>
+   <li><a href="cycleroutes.html">Cycle Routes</a></li>
+</ul>
+<h1>Select A Cycle Route</h1>
+</br>
+
+<button class="accordion">Stickyweeds to Rufford Loop</button>
+<div class="panel">
+Sticky Weeds to Rufford Loop – a gentle, flat  bike ride along quiet country lanes heading out to the picturesque villages of Croston and Rufford. 29 miles</br>
+<p>
+ <font face="Arial" size="6">
+<a href="29miles.gpx" target='_blank' 
+title="Download The Route Here">
+</font>
+ <font face="Arial">
+ 
+Download The Route Here</a>
+</p>
+</div>
+
+<button class="accordion">Stickyweeds to Southport Loop</button>
+<div class="panel">
+ <font face="Consolas">
+Sticky Weeds to Southport loop – a flat coastal ride along the cycleway route 62 to Southport , returning via quiet country lanes, Martin Mere, Rufford and Mawsdley. 46 miles
+</font>
+<p>
+ <font face="Arial" size="6">
+<a href="46miles.gpx" target='_blank' 
+title="Download The Route Here">
+</font>
+ <font face="Arial">
+Download The Route Here</a>
+</p>
+</div>
+
+<button class="accordion">Stickyweeds to Ashurt's Beacon</button>
+<div class="panel">
+ <font face="Consolas">
+Sticky Weeds to Ashurst’s Beacon – Test yourself with this challenging climb over Ashurst’s Beacon, returning via Rufford and Bretherton. 40 miles
+</font>
+<p>
+ <font face="Arial" size="6">
+<a href="40miles.gpx" target='_blank' 
+title="Download The Route Here">
+</font>
+ <font face="Arial">
+Download The Route Here</a>
+</p>
+</div>
+
+<button class="accordion">Stickyweeds West Lancashire Cycleway Loop</button>
+<div class="panel">
+ <font face="Consolas">
+Sticky Weeds West Lancashire cycleway loop – a longer ride , hooking up with the Lancashire cycleway through Croston, Appley Bridge, over Ashurst’s Beacon, looping around Ormskirk and then returning to Stickyweeds via the West Lancashire flatlands. 51 miles
+</font>
+<p>
+ <font face="Arial" size="6">
+<a href="51miles.gpx" target='_blank' 
+title="Download The Route Here">
+</font>
+ <font face="Arial">
+Download The Route Here</a>
+</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+</font>
+<footer>
+<font face="Times New Roman" size="1" color="grey">
+<p align=center>
+ © Copyright Stickyweeds Café 2016</br>
+ All rights reserved</br>
+ Website Design By Jacob Pope</br>
+ Cycle Routes by Rob Shillitoe and David Beattie</br>
+</footer>
+ </body>
+<html>
